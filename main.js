@@ -2,10 +2,10 @@ var quotes = ["Truth is the offstrping of silence and meditation. - Issac Newton
 "If the last book you read was from high school, that\'s the wrong person to be around. - Villanueva", "You can teach competence.  You can\'t teach character. - Villanueva", "If you want to be a mathametician, you don\'t hangout with writers. - Villanueva", "How to stay awake when you\'re reading...easy, stop reading and start doing something with the reading. - Mark Meyers",
 "It\s not the destination.  It\s the journey. - Ralph Waldo Emerson", "I will prepare and some day my chance will come. - Abraham Lincoln", "Punch fear in the face. - Jon Acuff", "No one aims for average. - Jon Acuff",
 "Action always beats intention.  Anyone can dream.  It\'s doing that is such a hasle. - Jon Acuff", "What\'s ordinary to one person can be extraordinary to another. - Seo Dal-mi", "Think about it: have YOU done anything impressive today? - John MacCormick",
-"Your personal genius is right at your fingertips.  Feel free to use it. - John MacCormich", "If you wait for perfect conditions to seize an opportunity, you\'ll be wating till the day you die. - Mark Batterson"];
+"Your personal genius is right at your fingertips.  Feel free to use it. - John MacCormich", "If you wait for perfect conditions to seize an opportunity, you\'ll be wating till the day you die. - Mark Batterson", "Reading books is like lifting weights for the body. - John Villanueva", "If you want to succeed, you have to take control of your life. You have to influence yourself. - John Villanueva", "We need to focus our energies to be good at anything. - John Villanueva", "You must master a new way to think before you can master a new way to be.", "There is no chance, no destiny, no fate, that can circumvent or hinder or control the firm resolve of a determined soul. Ella Wheeler Wilcox"];
 
 function quoteGen() {
-  alert(quotes[Math.floor(Math.random()*15)]);
+  alert(quotes[Math.floor(Math.random()*20)]);
 }
 
 function greeting() {
