@@ -18,5 +18,5 @@ function greeting() {
 var dailyAct = ["Talk to one team player. Find out 4 things they do outside of work.", "Find out the names of your team mates spouses and children.", "Memorize this quote today: Show up. Even on your bad days. Those are sometimes the most important.", "Today, memorize these words from Maya Angelou: You may shoot me with your words, You may cut me with your eyes, You may kill me with your hatefulness, But still, like air, I\’\ll rise.", "Think of one person you work with that you do not like or get along with. Write down 3 things you like about this person. Focus on those 3 things when you see them today.", "You are who you hang out with. Call a great leader today and ask them how they learned to lead.", "Think of a great leader that you worked for in the past. Write down what made them great."];
 
 function actionGen() {
-  alert(dailyAct[Math.floor(Math.random()*daillyAct.length)]);
+  alert(dailyAct[Math.floor(Math.random()*dailyAct.length)]);
 }
