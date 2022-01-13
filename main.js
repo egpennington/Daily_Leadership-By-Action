@@ -12,7 +12,7 @@ function quoteGen() {
 
 function greeting() {
   var leaderName = prompt("Welcome. What is your name?");
-  alert("Welcome" + leaderName + "Your leadership journey starts now!");
+  alert("Welcome " + leaderName + "Your leadership journey starts now!");
 }
 
 
