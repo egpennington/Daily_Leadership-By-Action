@@ -22,5 +22,5 @@ var dailyAct = ["Talk to one team player. Find out 4 things they do outside of w
                "As a leader, you may be tempted to build relationships only with the people you like or with whom you are highly compatible, and to ignore the others. However, by doing that, you have the potential to lose a lot of people.  Today, remember that while the things we have in common may make relationships enjoyable, the differences are what really make them interesting.", "Connect with someone on your team. What three nonbusiness things do you know about this person?"];
 
 function actionGen() {
-  alert(leaderName + ", " + (dailyAct[Math.floor(Math.random()*dailyAct.length)] + "  Write it down and go do it! Come back tomorrow for a new action to take."));
+  alert(leaderName + ", " + (dailyAct[Math.floor(Math.random()*dailyAct.length)] + "  Come back tomorrow for a new action to take."));
 }
