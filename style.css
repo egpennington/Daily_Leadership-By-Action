@@ -11,10 +11,20 @@
     text-align: center;
     */
   }
+
+body {
+  background-image: url(https://images.pexels.com/photos/3394939/pexels-photo-3394939.jpeg?cs=srgb&dl=pexels-matheus-natan-3394939.jpg&fm=jpg);
+}
+
 header {
   display: flex;
   justify-cotent: space-between;
   align-items: center;
+}
+
+.white {
+  color: #fff;
+  text-align: center;
 }
 
 #box-1 {
@@ -24,6 +34,8 @@ header {
     height: 150px;
     text-align: center;
     padding-top: 25px;
+    margin: 5px 5px;
+    border-radius: 10px;
 }
 
 #box-2 {
@@ -33,6 +45,8 @@ header {
     height: 150px;
     text-align: center;
     padding-top: 25px;
+    margin: 5px 5px;
+    border-radius: 10px;
 }
 #box-3 {
     background-color: #476b6b;
@@ -41,8 +55,8 @@ header {
     height: 100px;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
-    grid-area: footer;
+    margin: 5px 5px;
+    border-radius: 10px;
 }
 .standout {
     color: white;
