@@ -23,7 +23,7 @@ function quoteGen() {
 const leaderName = prompt("Hello. What is your name?");
 
 function greeting() {
-  alert("Welcome " + leaderName + " Your leadership journey starts now! Click on the Daily Leadership by Action button for your action today. Complete the action and come back tomorrow for another one.");
+  document.getElementById("greetArea").innerHTML = ("Welcome " + leaderName + ", Your leadership journey starts now! Click on the <strong>Daily Leadership by Action</strong> button for your action today. Complete the action. Come back tomorrow for another one.");
 }
 
 
