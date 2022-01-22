@@ -16,7 +16,8 @@ const quotes = ["Truth is the offspring of silence and meditation. - Issac Newto
                "Always remember that you are absolutely unique. Just like everyone else.  - Margaret Mead", "Always do whatever's next. - George Carlin", "Hapiness is not something ready made. It comes from your own actions. - Dalai Lama", "Everything around you that you call life was made up by people that were no smarter than you and you can change it, you can influence it, you can build your own things that other people can use. - Steve Jobs"];
 
 function quoteGen() {
-  alert(leaderName + ": " + (quotes[Math.floor(Math.random()*quotes.length)]));
+  const randNum = Math.floor(Math.random() * (quotes.length));
+  document.getElementById("quoteArea").innerHTML = quotes[randNum];
 }
 
 const leaderName = prompt("Hello. What is your name?");
