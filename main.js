@@ -36,5 +36,5 @@ const dailyAct = ["Talk to one team player. Find out 4 things they do outside of
                 "Winston Churchill used to say that, Success is going from failure to failure without loss of enthusiasm. Effective leaders see failures or breakdowns not as problems but as opportunities, as raw material for accomplishment.  Breakdowns are necessary for breakthroughs. Fail intentionally once or twice this week. Take on something of which you know that you will fail. Observe how you respond, what you feel and what others say about it.", "Understanding purpose facilitates your ability to make the right decisions, especially in tough times. Meet with two people today and ask each to share a time when they were on a team that had a clear purpose. As they share their stories, listen for examples of energy, commitment, and results. Doing this will allow you to see firsthand the power of purpose."];
 
 function actionGen() {
-  document.getELementById("actArea").innerHTML = (leaderName + ", " + (dailyAct[Math.floor(Math.random()*dailyAct.length)]));
+  document.getElementById("actArea").innerHTML = (leaderName + ", " + (dailyAct[Math.floor(Math.random()*dailyAct.length)]));
 }
