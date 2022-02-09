@@ -3,21 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
-  <meta "http-equiv= "X-UA-Compatible" content="ie=edge">
   <title>Daily Leading By Action</title>
-  <link rel="stylesheet" href="style.css"></link>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css">
   <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-  <header><img src="Marathon-Logo.gif" alt="marthon M logo">
-  <h1 class= "white">Daily Leadership by Action</h1>
+
+  <header>
+  <img src="Marathon-Logo.gif" alt="marthon M logo">
+  <h1>Daily Leadership by Action</h1>
   </header>
-  <p class= "white"><i>Leadership development is a lifelong process.</i></p>
-  <p class= "white"><i>Start with a daily practice of exercises and challenges designed to develop your leadership skills and abilities.</i></p>
-  <center><img src="https://source.unsplash.com/200x200/?desk"></center>
+  
+  
+  <p class= "white"><i>Leadership development is a lifelong process. Start with a daily practice of exercises and challenges designed to develop your leadership skills and abilities.</i></p>
+  <img class="image-daily" src="https://source.unsplash.com/200x200/?desk">
   <br>
   <p class= "white"><strong>What's your Leadership Action today?</strong></p>
+  
   <div id="box-container">
+  
     <div id="box-1"><h2>Leadership Talk</h2>
       <!-- this is where greeting will go -->
       <p id= "greetArea">Hello</p>
@@ -30,15 +35,17 @@
       <input type="button" class= "button2" onclick= "actionGen()" value= "Daily Action">
     </div>
 
-   <div id="box-3" class= "standout"><h2>Random Quote</h2>
-     <p id= "quoteArea" class= "quote">"I hate quotations" - Ralph Waldo Emerson</p>
-     <input type="button" class= "button3" onclick= "quoteGen()" value= "Get Quote">
-   </div>
+    <div id="box-3" class= "standout"><h2>Random Quote</h2>
+      <p id= "quoteArea" class= "quote">"I hate quotations" - Ralph Waldo Emerson</p>
+      <input type="button" class= "button3" onclick= "quoteGen()" value= "Get Quote">
+    </div>
      
+</div>
                                                                                   
   <hr><hr>
-  <footer class= "white"><p>&copy 2022 Pennington Programming Group</p>
-  <a class= "white" href="https://egpennington.github.io/personal-projects-page/">Our Projects</a>
+  <footer><p>&copy; 2022 Pennington Programming Group</p>
+  <p><a class= "btn" href="https://egpennington.github.io/personal-projects-page/" target="blank">Visit Our Projects</a></p>
   </footer>
+  
 </body>
 </html>
