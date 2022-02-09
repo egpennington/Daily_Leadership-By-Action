@@ -1,50 +1,56 @@
-#box-container {
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    /* grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-      "header header header"
-      "content content advert"
-      "footer footer footer";
-    text-align: center;
-    */
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-image: url(https://images.pexels.com/photos/3394939/pexels-photo-3394939.jpeg?cs=srgb&dl=pexels-matheus-natan-3394939.jpg&fm=jpg);
 }
 
 header {
-  display: flex;
-  justify-cotent: space-between;
-  align-items: center;
+  display: inline;
+  text-align: center;
 }
 
-.white {
+/* Utilities */
+
+h1, .white {
   color: #fff;
   text-align: center;
+  padding-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.image-daily {
+  display: block;
+  margin: 30px auto;
+}
+
+#box-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #box-1 {
     background-color: #e0ebeb;
-    grid-area: header;
     width: 70%;
     height: 150px;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px;
     margin: 10px auto;
     border-radius: 10px;
 }
 
 #box-2 {
     background-color: #a3c2c2;
-    grid-area: content;
     width: 70%;
     height: 150px;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px;
     margin: 10px auto;
     border-radius: 10px;
 }
@@ -54,34 +60,65 @@ header {
     width: 70%;
     height: 150px;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px;
     margin: 10px auto;
     border-radius: 10px;
 }
 
+/* Buttons */
 .button1 {
     border-radius: 12px;
-    font-size: 24px;
-    tranisition-duration: 0.5s;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 20px;
 }
 .button1:hover {
     background-color: #a3c2c2;
     color: white;
 }
+
 .button2 {
     border-radius: 12px;
-    font-size: 24px;
-    tranisition-duration: 0.5s;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 20px;
 }
 .button2:hover {
     background-color: #476b6b;
     color: white;
 }
+
 .button3 {
     border-radius: 12px;
-    font-size: 24px;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 20px;
 }
 .button3:hover {
     background-color: #83afaf;
     color: white;
+}
+
+/* Footer */
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
+
+footer .btn {
+  font-size: 0.7rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  border: #444 solid 1px;
+  border-radius: 5px;
+  background: #e0ebeb;
+  color: #444;
+  padding: 5px 10px;
+}
+
+footer .btn:hover {
+  background: #a3c2c2;
+  color: #f4f4f4;
 }
